@@ -1,3 +1,5 @@
+# This is still a Work In Progress, do not try to use yet
+
 # Devise::OTP_plus
 
 Devise OTP is a Two-Factor Authentication extension for Devise. The second factor is done using an [RFC 6238](https://datatracker.ietf.org/doc/html/rfc6238) Time-Based One-Time Password (TOTP) implemented by the [rotp library](https://github.com/mdp/rotp).
