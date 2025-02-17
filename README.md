@@ -1,4 +1,4 @@
-# Devise::OTP
+# Devise::OTP_plus
 
 Devise OTP is a Two-Factor Authentication extension for Devise. The second factor is done using an [RFC 6238](https://datatracker.ietf.org/doc/html/rfc6238) Time-Based One-Time Password (TOTP) implemented by the [rotp library](https://github.com/mdp/rotp).
 
@@ -8,16 +8,15 @@ It has the following features:
 - Setting up trusted browsers for limited access
 - Generating QR codes
 
+Added features in plus version:
+- Email OTP
+
 Some of the compatible token devices are:
 
 * [Google Authenticator](https://code.google.com/p/google-authenticator/)
 * [FreeOTP](https://fedorahosted.org/freeotp/)
 
 Device OTP was recently updated to work with Rails 7+ and Turbo.
-
-## Sponsor
-
-Devise::OTP development is sponsored by [Business Class](https://businessclasskit.com/) Rails SaaS starter kit. If you don't want to setup OTP yourself for your new project, consider starting one on Business Class.
 
 ## Two-Factor Authentication using OTP
 
@@ -103,9 +102,9 @@ Enforcing mandatory OTP requires adding the ensure\_mandatory\_{scope}\_otp! met
 
 ## Authors
 
-The project was originally started by Lele Forzani by forking [devise_google_authenticator](https://github.com/AsteriskLabs/devise_google_authenticator) and still contains some devise_google_authenticator code. It's now maintained by [Josef Strzibny](https://github.com/strzibny/) and [Laney Stroup](https://github.com/strouptl).
-
-Contributions are welcome!
+This project is based on [Devise-otp](https://github.com/wmlele/devise-otp) gem by [Lele Forzani], [Josef Strzibny] and [Laney Stroup].
+And is now being maintained by [Hassan Eslaminezhad](https://github.com/hassaneslami2765)
+It adds support for Email OTP
 
 ## License
 
